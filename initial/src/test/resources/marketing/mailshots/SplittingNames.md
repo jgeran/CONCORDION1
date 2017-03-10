@@ -8,5 +8,6 @@ around whitespace.
 
 ### Example
 
-The full name [Jane Smith]() is [broken]() into first name [Jane]() and last name [Smith]().
+The full name [Jane Smith](- "#name") is [broken](- "#result = split(#name)") 
+into first name [Jane](- "?=#result.firstName") and last name [Smith](- "?=#result.lastName").
 
